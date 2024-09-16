@@ -1,0 +1,9 @@
+#Project Structure
+
+google-meet-clone/
+├── server.js
+├── public/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+└── package.json

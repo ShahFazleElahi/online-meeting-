@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom-like Video Conference</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="controls">
+        <a href="login.html"></a><button id="start-call">Login</button></a>
+        <a href="signup.html"></a><button id="join-call">Sign Up</button></a>
+    </div>
+
+    <img src="meet.png" alt="">
+    
+    <h1 class="hero">
+        Premium video meetings for everyone.
+    </h1>
+    
+    <p>
+        We re-engineered the service we built for secure, high-quality business meetings, Google Meet, to make it available for all, on any device.
+    </p>
+    
+    <div id="main-video-container">
+        <video id="main-video" autoplay muted></video>
+    </div>
+    <div id="video-thumbnails">
+        <!-- Thumbnail videos will be dynamically added here -->
+    </div>
+    <div id="controls">
+        <button id="start-call">Start Call</button>
+        <button id="join-call">Join Call</button>
+    </div>
+
+    <footer>
+        <p>© 2024 JST PRODUCTION. All rights reserved.</p>
+    </footer>
+    
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
